@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Jaapokkisubtract';
+    src: url('../fonts/JaapokkisubtractRegular.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/JaapokkisubtractRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/JaapokkisubtractRegular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/JaapokkisubtractRegular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/JaapokkisubtractRegular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/JaapokkisubtractRegular#svgFontName') format('svg');
+    /* Legacy iOS */
+}
+
+
+/*  Specification  */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #0001c5;
+}
+
+.jpk-font {
+    font-family: 'Jaapokkisubtract', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Jaapokkisubtract', sans-serif;
+    letter-spacing: 0.14em;
+    font-weight: normal;
+    line-height: 1.25em;
+}
+
+div,
+p,
+span,
+a,
+input,
+button {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 7%;
+    position: relative;
+}
+
+
+/*  Hero section  */
+
+.header {
+    background: #0406bd url(../img/first_bg.jpg) no-repeat center bottom / cover;
+    color: white;
+    height: 100vh;
+}
+
+.header .container {
+    height: 100vh;
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+    background: white;
+    color: #0000a0;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    line-height: 51px;
+    display: block;
+    transition: all 0.3s ease;
+    position: absolute;
+    top: 8%;
+}
+
+.logo:hover {
+    border-radius: 8px;
+}
+
+.bran {
+    background: white;
+    width: 42px;
+    height: 210px;
+    color: #0304b9;
+    font-size: 18px;
+    padding: 10px 16px;
+    position: absolute;
+    left: 61%;
+    top: 0;
+    line-height: 1.5em;
+}
+
+.hamburger {
+    width: 41px;
+    position: absolute;
+    right: 0;
+    top: 8%;
+    float: right;
+    cursor: pointer;
+}
+
+.hamburger span {
+    background: white;
+    display: block;
+    height: 2px;
+    margin-bottom: 6px;
+    float: right;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.hamburger:hover span {
+    float: left;
+}
+
+.hamburger span:nth-child(1) {}
+
+.hamburger span:nth-child(2) {
+    width: 75%;
+}
+
+.hamburger span:nth-child(3) {
+    width: 50%;
+}
+
+.offer {
+    position: absolute;
+    left: 0;
+    top: 17%;
+}
+
+.offer__bg {
+    font-size: 300px;
+    color: #1b1cc4;
+    position: absolute;
+}
+
+.offer__title {
+    font-size: 55px;
+    position: relative;
+    width: 560px;
+    margin-top: 110px;
+    margin-left: 134px;
+}
+
+.offer__title:after {
+    content: '';
+    display: block;
+    background: #fff;
+    width: 29px;
+    height: 5px;
+    position: absolute;
+    top: -20px;
+    right: 160px;
+}
