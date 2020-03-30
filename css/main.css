@@ -17,6 +17,11 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     color: #0001c5;
+    letter-spacing: 0.06em;
+}
+
+.p {
+    line-height: 1.6em;
 }
 
 .jpk-font {
@@ -131,7 +136,8 @@ button {
 .offer {
     position: absolute;
     left: 0;
-    top: 17%;
+    top: 50%;
+    margin-top: -250px;
 }
 
 .offer__bg {
@@ -157,4 +163,66 @@ button {
     position: absolute;
     top: -20px;
     right: 160px;
+}
+
+.offer__text {
+    font-size: 17px;
+    width: 337px;
+    margin-left: 217px;
+    margin-top: 43px;
+    line-height: 27px;
+}
+
+.btn {
+    font-family: 'Jaapokkisubtract', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    background: transparent;
+    border: 3px solid #fff;
+    cursor: pointer;
+    padding: 17px;
+    width: 217px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #0000a0;
+}
+
+.offer__btn {
+    margin-left: 350px;
+    margin-top: 45px;
+}
+
+.next {
+    font-size: 300px;
+    width: 433px;
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    margin-top: -180px;
+    line-height: 0;
+    text-shadow: 20px 20px 0 #0309a1;
+}
+
+.next span {
+    margin-right: -70px;
+    line-height: 0.7em;
+}
+
+.next span:nth-child(2) {
+    color: #0048ff;
+}
+
+.scroll {
+    display: block;
+    font-size: 22px;
+    border-right: 3px solid #fff;
+    height: 135px;
+    padding: 40px;
+    padding-top: 20px;
+    color: #fff;
+    width: 100px;
+    text-decoration: none;
 }
