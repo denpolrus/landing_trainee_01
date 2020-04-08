@@ -40,6 +40,15 @@ h6 {
     line-height: 1.25em;
 }
 
+h2 {
+    letter-spacing: 0.04em;
+    margin: 0;
+}
+
+h3 {
+    letter-spacing: 0.03em;
+}
+
 div,
 p,
 span,
@@ -61,6 +70,7 @@ button {
     background: #0406bd url(../img/first_bg.jpg) no-repeat center bottom / cover;
     color: white;
     height: 100vh;
+    box-shadow: 0 40px 190px rgba(33, 48, 99, 0.4);
 }
 
 .header .container {
@@ -220,9 +230,139 @@ button {
     font-size: 22px;
     border-right: 3px solid #fff;
     height: 135px;
-    padding: 40px;
+    padding-right: 40px;
     padding-top: 20px;
     color: #fff;
     width: 100px;
+    text-decoration: none;
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+    transition: all 0.3s ease;
+}
+
+.scroll:hover {
+    background: #fff;
+    color: #0000a0;
+}
+
+
+/*   Services   */
+
+.services {
+    padding-top: 166px;
+    padding-bottom: 180px;
+}
+
+.section-title {}
+
+.section-title__intro {
+    font-family: 'Jaapokkisubtract', sans-serif;
+    font-size: 23px;
+    color: #a8a8e4;
+    margin: 0;
+}
+
+.section-title__title {
+    font-size: 85px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.section-title__title:after {
+    content: '';
+    width: 29px;
+    height: 5px;
+    display: inline-block;
+    background: #1e1fec;
+    margin-bottom: -15px;
+}
+
+.service__item {
+    width: 20%;
+    border: 4px solid #0001c5;
+    display: block;
+    padding-left: 53px;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.service__icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.service__title {
+    font-size: 26px;
+}
+
+.service__more {
+    font-size: 31px;
+    width: 37px;
+    height: 37px;
+    background: #0001c5;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    display: block;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.service__index {
+    position: absolute;
+    font-size: 23px;
+    color: #a8a8e4;
+    font-family: 'Jaapokkisubtract', sans-serif;
+    left: -55px;
+    top: 30px;
+}
+
+.service__item:hover {
+    background: #0001c5;
+    color: #fff;
+    box-shadow: 16px 16px 65px rgba(1, 0, 197, 0.45);
+}
+
+
+/*  FOOTER  */
+
+.footer {
+    background: #ededf8;
+    padding: 160px 0;
+}
+
+.credits__logo {
+    background: #0001c5;
+    color: #fff;
+    position: relative;
+    top: auto;
+}
+
+.credits__btn {
+    color: #0001c5;
+    border: 3px solid #0001c5;
+    font-size: 17px;
+    padding: 13px 0;
+    width: 172px;
+}
+
+.credits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.credits__up {
     text-decoration: none;
 }
